@@ -1,0 +1,76 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#gameArea{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.gameAreaContents {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid rgb(39, 39, 39);
+    box-shadow: 5px 8px 8px rgb(87, 86, 86);
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(46, 46, 46), rgb(211, 211, 211), rgb(46, 46, 46));
+    width: 50%;
+}
+
+.resultText{
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid rgb(39, 39, 39);
+    box-shadow: 5px 8px 8px rgb(87, 86, 86);
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(46, 46, 46), rgb(211, 211, 211), rgb(46, 46, 46));
+    width: 50%;
+}
+
+.buttons{
+    display: inline-block;
+}
+
+h1{
+    color: rgb(12, 35, 58);
+    text-shadow: -1px 0 3px rgb(255, 255, 255), 0 1px 3px rgb(255, 255, 255), 1px 0 3px rgb(255, 255, 255), 0 -1px 3px rgb(255, 255, 255);
+    background-image: linear-gradient(to right,  rgb(211,211,211, 0.01), rgb(207, 207, 207),  rgb(211,211,211, 0.01));
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 10px linear-gradient(to right,  rgb(211,211,211, 0.01), rgb(0, 0, 0),  rgb(211,211,211, 0.01));
+    box-shadow: 1px 2px 8px rgb(87, 86, 86);
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+.playerScore {
+    margin: 40px;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    text-shadow: -1px 0 3px rgb(255, 255, 255), 0 1px 3px rgb(255, 255, 255), 1px 0 3px rgb(255, 255, 255), 0 -1px 3px rgb(255, 255, 255);
+    background-image: linear-gradient(to right,  rgb(211,211,211, 0.01), rgb(207, 207, 207),  rgb(211,211,211, 0.01));
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: 10px linear-gradient(to right,  rgb(211,211,211, 0.01), rgb(0, 0, 0),  rgb(211,211,211, 0.01));
+    box-shadow: 1px 2px 8px rgb(87, 86, 86);
+    margin-top: 0;
+    padding: 5px;
+}
+
+button{
+    border-color: rgb(134, 133, 133);
+    border-radius: 5pt;
+    box-shadow: 5px 8px 8px rgb(87, 86, 86);
+    padding: 20px;
+    margin: 20px;
+    font-size: 15pt;
+}
+
+button:hover{
+    text-shadow: 4px 6px 6px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(224, 224, 224), rgb(122, 122, 122));
+}
+
